@@ -42,11 +42,17 @@ body{
     border: 1px solid grey;
     border-radius: 25px;
     margin: 10px;
-    padding: 5px 10px 5px 10px;
+    min-width: 500px;
+    padding: 5px 15px;
     outline: none;
 }
 .searchbar:hover, .searchbar:focus{
     box-shadow: 0 0 2px #777;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
 }
 
 .searchbtn{
@@ -54,8 +60,26 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px;
+    margin: 10px;
 }
 .searchbtn:hover{
     cursor: pointer;
     box-shadow: 0 0 2px #777;
+}
+
+.advancedbtn{
+    background-color: #5566FF;
+    color: #FFF
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avancedcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
