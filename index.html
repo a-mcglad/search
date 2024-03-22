@@ -2,17 +2,20 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width: device-width; initial-scale: 1;">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="navbar">
-            <a href="/index" class="nav-item">Search</a>
-            <a href="/image" class="nav-item">Image</a>
-            <a href="/advanced" class="nav-item">Advanced</a>
+            <a href="./index.html" class="nav-item">Search</a>
+            <a href="./image.html" class="nav-item">Image</a>
+            <a href="./advanced.html" class="nav-item">Advanced</a>
         </div>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <form class="searchcontainer" action="https://google.com/search">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+            <input class="searchbar" type="text" name="q" autofocus>
+            <input class="searchbtn" type="submit" value="Google Search">
         </form>
     </body>
 </html>
